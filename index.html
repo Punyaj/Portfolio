@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shaikha anas</title>
+    <title>Punya Jayarajan</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -12,8 +12,10 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 <body>
+  <div id="preloader"></div>
     <div id="cursor"></div>
     <div id="cursor-border"></div>
  
@@ -22,18 +24,19 @@
 <header>
 
     <div class="user">
-        <img src="images/profile-pic.png" alt="">
-        <h3 class="name">shaikha anas</h3>
+        <img src="images/dp_image.png" alt="">
+        <h3 class="name">Punya Jayarajan</h3>
         <!-- <p class="post">front end developer</p> -->
     </div>
 
      <nav class="navbar">
         <ul>
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
+          <a href="index.html"  style="color: #f9ca24;"><i class="fas fa-home nav-icons"></i><span> HOME</span></a>
+          <a href="about.html"><i class="fas fa-user nav-icons"></i><span> ABOUT ME</span></a>
+          <!-- <a href="about.html"><i class="fa fa-file nav-icons"></i><span> RESUME</span></a> -->
+          <a href="Portfolio.html"><i class="fas fa-film nav-icons"></i><span> GALLERY</span></a>
+          <a href="blog.html"><i class="fas fa-newspaper nav-icons"></i><span> BLOG</span></a>
+          <a href="contact.html"><i class="fas fa-address-card nav-icons"></i><span> CONTACT ME</span></a>
         </ul>
     </nav>
 
@@ -45,27 +48,37 @@
 
 <!-- home section starts  -->
 <section class="main-page">
-<section class="home" style="background-color:white;" id="home">
+<section class="home" id="home">
 
     <h3>HI THERE !</h3>
-    <h1>I'M <span>shaikha anas</span></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio deserunt aspernatur fugiat minus enim ullam repudiandae sint sed magnam tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, at.
-    </p>
+    <h1>I'M <span>Punya Jayarajan</span></h1>
+    <div class="container1">
+      <p>I Am Passionate <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+    </div>
+    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <div class="social">
-      <a href="https://www.facebook.com/RealMahadev/" target="_blank" itemprop="SameAs">
+      <!-- <a href="https://www.facebook.com/RealMahadev/" target="_blank" itemprop="SameAs">
         <i class="fa fa-facebook fb"></i>
       </a>
       <a href="https://twitter.com/realmahadev" target="_blank" itemprop="SameAs">
         <i class="fa fa-twitter"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/realmahadev" target="_blank" itemprop="SameAs">
+      </a> -->
+      <a href="https://www.linkedin.com/in/punya-jayarajan-a23a83205/" target="_blank" itemprop="SameAs">
         <i class="fa fa-linkedin"></i>
       </a>
-      <a href="https://www.instagram.com/realmahadev/" target="_blank" itemprop="SameAs">
+      <a href="https://www.instagram.com/_punyaj_/?hl=en" target="_blank" itemprop="SameAs">
         <i class="fa fa-instagram instagram"></i>
       </a>
+      <a href="https://www.quora.com/profile/Punya-Jayarajan" target="_blank" itemprop="SameAs">
+        <i class="fa fa-quora"></i>
+      </a>
+      <a href="https://github.com/Punyaj" target="_blank" itemprop="SameAs">
+        <i class="fa fa-github"></i>
+      </a>
+
 </section>
+
 <!-- home section ends -->
 </section>
 <!-- scroll top button  -->
@@ -83,16 +96,22 @@
 
 
 
-
-
-
-
-
 <!-- jquery cdn link  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+
+<script>
+  var loader = document.getElementById(preloader);
+  function closepreloader(){
+            document.getElementById("preloader").style.display = 'none';
+        }
+        window.addEventListener("load",function(){
+            setTimeout(closepreloader, 1000);
+            
+        });
+</script>
 
 
 </body>
