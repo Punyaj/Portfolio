@@ -1499,4 +1499,7 @@ background-color: #f9ca24;
   .card-content{
     padding: 5px 10px;
   }
+  .categories{
+    justify-content: center;
+  }
 }
