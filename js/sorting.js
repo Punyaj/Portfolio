@@ -8,68 +8,68 @@ let selectedCategory = initialSelected.innerText.toLowerCase(); // 'all'
 const pictures = [
 	{
 		url:
-			'../images/COWIKI.jpg',
+			'./images/COWIKI.jpg',
 		category: 'all'
 	},
 	{
 		url:
-			'../images/sanjeevani.jpg',
+			'./images/sanjeevani.jpg',
 		category: 'all'
 	},
     {
 		url:
-			'../images/SHE_STATE_LEVEL_LAUNCH.png',
+			'./images/SHE_STATE_LEVEL_LAUNCH.png',
 		category: 'all'
 
 	},
 	{
 		url:
-			'../images/Calypso_gcek.png',
+			'./images/Calypso_gcek.png',
 		category: 'all'
 
 	},
 	{
 		url:
-			'../images/DTMF.jpg',
+			'./images/DTMF.jpg',
 		category: 'all'
 	},
 	{
 		url:
-			'../images/Mini-Project.jpeg',
+			'./images/Mini-Project.jpeg',
 		category: 'all'
 	},
 	{
 		url:
-			'../images/COWIKI.jpg',
+			'./images/COWIKI.jpg',
 		category: 'web'
 
 	},
 	{
 		url:
-			'../images/sanjeevani.jpg',
+			'./images/sanjeevani.jpg',
 		category: 'web'
         
 	},
 	{
 		url:
-			'../images/SHE_STATE_LEVEL_LAUNCH.png',
+			'./images/SHE_STATE_LEVEL_LAUNCH.png',
 		category: 'web'
 
 	},
 	{
 		url:
-			'../images/Calypso_gcek.png',
+			'./images/Calypso_gcek.png',
 		category: 'web'
 
 	},
 	{
 		url:
-			'../images/DTMF.jpg',
+			'./images/DTMF.jpg',
 		category: 'projects'
 	},
 	{
 		url:
-			'../images/Mini-Project.jpeg',
+			'./images/Mini-Project.jpeg',
 		category: 'projects'
 	}
 ];
