@@ -258,16 +258,18 @@ header{
 }
 
 header .user img{
+  align-items: left;
+  justify-content: left;
     height:17rem;
     width:17rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    border:.3rem solid var(--yellow);
 }
 
 header .user .name{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color:#ffffff;
     text-align: left;
 
@@ -974,6 +976,14 @@ header .navbar ul li a:hover{
 	width: calc(50% - 6px);
 	height: auto;
 	animation: 0.55s ease-in-out fadeIn forwards;
+  transition: transform 0.3s ease;
+
+}
+
+
+
+.pictures-grid img:hover {
+  transform: scale(1.03); /* Increase the size by 10% on hover */
 }
 
 @keyframes fadeIn {
