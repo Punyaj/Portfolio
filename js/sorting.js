@@ -172,32 +172,32 @@ const pictures = [
 {
 	url: './images/Brandiasm_Desktop.png',
 	category: 'ui/ux',
-	file: './images/Brandiasm_Desktop.pdf'
+	file: 'https://drive.google.com/file/d/1G_MI78jMVa88kQHFlXh61jc8wgQTZ-NL/view?usp=sharing'
 },
 {
 	url: './images/SHEGcek_Website.png',
 	category: 'ui/ux',
-	file: './images/SHE Website.pdf'
+	file: 'https://drive.google.com/file/d/1kBQ5ceIuMXCyH_ET7fas0RduYWYE3Il6/view?usp=drive_link'
 },
 {
 	url: './images/SHEGcek_Website2.png',
 	category: 'ui/ux',
-	file: './images/SHE Website2.pdf'
+	file: 'https://drive.google.com/file/d/1-yjWvsHGmscPy3AaFETK1KNwiC5KmlHf/view?usp=drive_link'
 },
 {
 	url: './images/Survey_Site.png',
 	category: 'ui/ux',
-	file: './images/Survey Site.pdf'
+	file: 'https://drive.google.com/file/d/1yP07CGBFbIfX1rsyZHdfSbZGAjNTSmRQ/view?usp=drive_link'
 },
 {
 	url: './images/Brandiasm_Mobile.png',
 	category: 'ui/ux',
-	file: './images/Brandiasm_Mobile.pdf'
+	file: 'https://drive.google.com/file/d/1kGz2HC5Yk8ntW5uaQjAf0U_xY77-zsM-/view?usp=drive_link'
 },
 {
 	url: './images/Mobile App.png',
 	category: 'ui/ux',
-	file: './images/Mobile App.pdf'
+	file: 'https://drive.google.com/file/d/1pBECE4O4DU-pXkWxAP2MJrbjUeiaGCTv/view?usp=drive_link'
 },
 	// {
 	// 	url:
