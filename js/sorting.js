@@ -95,6 +95,21 @@ const pictures = [
 	},
 	{
 		url:
+			'./images/ArtHive.png',
+		category: 'web',
+		file: 'https://vandana-sreedharan.github.io/ArtHive/'
+
+	},
+	{
+		url:
+			'./images/PortfolioWeb.png',
+		category: 'web',
+		file: 'https://punyaj.github.io/Pwebsite2/'
+	},
+	
+
+	{
+		url:
 			'./images/COWIKI.jpg',
 		category: 'web',
 		file: 'https://punyaj.github.io/Covid-Encyclopedia/index.html'
@@ -122,16 +137,78 @@ const pictures = [
 	file: './images/TheSpecialist MoviePoster.png'
 },
 
-	{
-		url:
-			'./images/DTMF.jpg',
-		category: 'projects'
-	},
-	{
-		url:
-			'./images/Mini-Project.jpeg',
-		category: 'projects'
-	}
+{
+	url: './images/Grow More Tech Catalogue_1.jpg',
+	category: 'brochure',
+	file: 'https://drive.google.com/file/d/1uD5oj-vKzCOPGkF163dYU5LGb5cPnW0B/view?usp=drive_link'
+},
+{
+	url: './images/Black catalog final file.jpg',
+	category: 'brochure',
+	file: 'https://drive.google.com/file/d/1yzAd-ZyIP2dJvsMdD0WddFu9oIPtrca_/view?usp=drive_link, https://drive.google.com/file/d/1eYzAv62kJEHK4JHIdwM30o0Jyzqu6Q5_/view?usp=drive_link'
+},
+{
+	url: './images/Punya Copper catalog final file_1.jpg',
+	category: 'brochure',
+	file: 'https://drive.google.com/file/d/1yzAd-ZyIP2dJvsMdD0WddFu9oIPtrca_/view?usp=drive_link'
+},
+{
+	url: './images/Central Limit Theorm_1.jpg',
+	category: 'more',
+	file: 'https://drive.google.com/file/d/1QAKO7bj7vzdupLLM_ifK6RvlR4-agRsv/view?usp=sharing'
+},
+{
+	url: './images/Outliers_1.jpg',
+	category: 'more',
+	file: 'https://drive.google.com/file/d/1BXPj9QgHjW8jATHSYJdoRwRJm-XWrvVQ/view?usp=drive_link'
+},
+{
+	url: './images/OOB Error_1.jpg',
+	category: 'more',
+	file: 'https://drive.google.com/file/d/16PbUsUXB70-A9NCBNNkz6wWzKGBvMS8l/view?usp=drive_link'
+},
+
+
+{
+	url: './images/Brandiasm_Desktop.png',
+	category: 'ui/ux',
+	file: './images/Brandiasm_Desktop.pdf'
+},
+{
+	url: './images/SHEGcek_Website.png',
+	category: 'ui/ux',
+	file: './images/SHE Website.pdf'
+},
+{
+	url: './images/SHEGcek_Website2.png',
+	category: 'ui/ux',
+	file: './images/SHE Website2.pdf'
+},
+{
+	url: './images/Survey_Site.png',
+	category: 'ui/ux',
+	file: './images/Survey Site.pdf'
+},
+{
+	url: './images/Brandiasm_Mobile.png',
+	category: 'ui/ux',
+	file: './images/Brandiasm_Mobile.pdf'
+},
+{
+	url: './images/Mobile App.png',
+	category: 'ui/ux',
+	file: './images/Mobile App.pdf'
+},
+	// {
+	// 	url:
+	// 		'./images/DTMF.jpg',
+	// 	category: 'projects'
+	// },
+	// {
+	// 	url:
+	// 		'./images/Mini-Project.jpeg',
+	// 	category: 'projects'
+	// }
 ];
 
 
