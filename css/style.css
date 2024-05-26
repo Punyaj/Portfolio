@@ -654,8 +654,15 @@ header .navbar ul li a:hover{
     width: 100%;
   }
   .progress-line .css {
+    width: 50%;
+  }
+  .progress-line .figma {
+    width: 90%;
+  }
+  .progress-line .canva {
     width: 100%;
   }
+
   .progress-line .bootstrap {
     width: 82%;
   }
